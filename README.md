@@ -7,6 +7,6 @@ This script bypasses [scribd.com](https://www.scribd.com/)'s paywall, allowing y
 
 ### Usage
 To run the script, use:
-`python scribdl.py <number> <path>` where `<number>` is the number in the document URL (`https://www.scribd.com/doc/<number>/<title>`) and `<path>` is the folder where you want everything saved.
+`python scribdl.py <number> <path>` where `<number>` is the number in the document URL (`https://www.scribd.com/doc/<number>/<title>`) and `<path>` is the path to a directory where you want everything saved.
 
-Images of each page of the document will be saved in order under `<path>/<title>/images/`. A PDF created by compiling all those images will be saved as `<path>/<title>/<title>.pdf`
+Images of each page of the document will be saved in order under `<path>/<title>/images/`. A PDF created by compiling all those images will be saved as `<path>/<title>_<number>/<title>.pdf`
