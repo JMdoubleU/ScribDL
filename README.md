@@ -1,5 +1,5 @@
 ## Purpose
-This script bypasses [scribd.com](https://www.scribd.com/)'s paywall, allowing you to download anything listed as a document (has a URL like `https://www.scribd.com/doc/<number>/<title>`) and convert it to a PDF. I created this script because I don't believe education should be kept behind a paywall.
+This script bypasses [scribd.com](https://www.scribd.com/)'s paywall, allowing you to download anything listed as a document (has a URL like `https://www.scribd.com/doc/<number>/<title>`) and convert it to a PDF.
 
 ### Dependencies
 * [ImageMagick](http://www.imagemagick.org/) - used to compile page images to a PDF
